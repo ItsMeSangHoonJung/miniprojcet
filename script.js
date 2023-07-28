@@ -3,7 +3,7 @@ const gridContainer = document.querySelector("#gridContainer")
 
 generateBtn.addEventListener('click', () =>{
     if(gridContainer.children.length >=30){
-        const confirmed = confirm("새로운 사진을 불러오기위해 모든 사진을 지우겠습니까??");
+        const confirmed = confirm("새로운 사진을 불러오기위해 모든 사진을 지우겠습니까?");
         if (confirmed){
             gridContainer.innerHTML ="";
         }
